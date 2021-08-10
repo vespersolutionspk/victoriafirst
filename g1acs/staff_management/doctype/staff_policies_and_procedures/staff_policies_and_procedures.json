@@ -1,0 +1,314 @@
+{
+ "actions": [],
+ "autoname": "field:full_name",
+ "creation": "2020-12-30 21:17:35.574651",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "bd2",
+  "sb1",
+  "html_4",
+  "html_8",
+  "column_break_6",
+  "html_7",
+  "staff_code_of_conduct",
+  "sb2",
+  "html_10",
+  "html_11",
+  "column_break_12",
+  "continuous_improvement_policy_and_procedure",
+  "sb3",
+  "html_15",
+  "html_14",
+  "column_break_17",
+  "risk_management_policy_and_procedure",
+  "sb4",
+  "html_20",
+  "html_17",
+  "column_break_22",
+  "occupational_health_and_safety_policy_and_procedure",
+  "sb5",
+  "html_25",
+  "html_26",
+  "column_break_27",
+  "fire_safety_and_emergency_policy_and_procedure",
+  "sb6",
+  "html_30",
+  "html_31",
+  "column_break_32",
+  "incident_management_policy_and_procedure",
+  "sb8",
+  "html_40",
+  "html_41",
+  "column_break_42",
+  "privacy_and_confidentiality_policy_and_procedure",
+  "section_break_49",
+  "html_50",
+  "user",
+  "full_name",
+  "date1",
+  "sn2"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Policies and Procedures</h1>"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<p>As part of the Disability Support Victoria induction program, you are required to know and understand the\npolicies and procedures that direct your performance. Please complete the following checklist, and return it\nto your supervisor.<br><br>Please note: Other policies, procedures, and documents may be relevant to your role. This is not an\nexhaustive list.</p>"
+  },
+  {
+   "fieldname": "staff_code_of_conduct",
+   "fieldtype": "Select",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "continuous_improvement_policy_and_procedure",
+   "fieldtype": "Select",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "risk_management_policy_and_procedure",
+   "fieldtype": "Select",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "occupational_health_and_safety_policy_and_procedure",
+   "fieldtype": "Select",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "fire_safety_and_emergency_policy_and_procedure",
+   "fieldtype": "Select",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "incident_management_policy_and_procedure",
+   "fieldtype": "Select",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "privacy_and_confidentiality_policy_and_procedure",
+   "fieldtype": "Select",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sn2",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "sb1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_8",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/MANAGEMENT-OF-CATHETER-MANAGEMENT-POLICY-AND-PROCEDURE.docx\" target=\"_blank\">MANAGEMENT OF CATHETER MANAGEMENT POLICY AND PROCEDURE</a>"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "sb2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_11",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/MANAGEMENT-OF-COMPLEX-BOWEL-POLICY-AND-PROCEDURE.docx\" target=\"_blank\">MANAGEMENT OF COMPLEX BOWEL POLICY AND PROCEDURE</a>"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "sb3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_14",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/MANAGEMENT-OF-COMPLEX-WOUND-POLICY-PROCEDURE.docx\" target=\"_blank\">MANAGEMENT OF COMPLEX WOUND POLICY &amp; PROCEDURE</a>"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "sb4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_17",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/MANAGEMENT-OF-ENTERAL-FEEDING-IN-COMMUNITY-POLICY-AND-PROCEDURE.docx\" target=\"_blank\">MANAGEMENT OF ENTERAL FEEDING IN COMMUNITY POLICY AND PROCEDURE</a>"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "sb5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_20",
+   "fieldtype": "HTML",
+   "options": "<h5>View Document</h5>"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "sb6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_26",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/MANAGEMENT-OF-SUBCUTANEOUS-INJECTION-POLICY-AND-PROCEDURE.docx\" target=\"_blank\">MANAGEMENT OF SUBCUTANEOUS INJECTION POLICY AND PROCEDURE</a>"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "sb8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_41",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/05/RI-Policies.pdf\" target=\"_blank\">RI Policies</a>"
+  },
+  {
+   "fieldname": "section_break_49",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_50",
+   "fieldtype": "HTML",
+   "options": "<p>I have read and understood.</p>"
+  },
+  {
+   "fieldname": "html_4",
+   "fieldtype": "HTML",
+   "options": "<h5>View Document</h5>"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_7",
+   "fieldtype": "HTML",
+   "hidden": 1,
+   "options": "<h5>Staff Input</h5>"
+  },
+  {
+   "fieldname": "html_10",
+   "fieldtype": "HTML",
+   "options": "<h5>View Document</h5>"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_15",
+   "fieldtype": "HTML",
+   "options": "<h5>View Document</h5>"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_25",
+   "fieldtype": "HTML",
+   "options": "<h5>View Document</h5>"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_30",
+   "fieldtype": "HTML",
+   "options": "<h5>View Document</h5>"
+  },
+  {
+   "fieldname": "html_31",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/MANAGEMENT-OF-TRACHEOSTOMY-POLICY-AND-PROCEDURE.docx\" target=\"_blank\">MANAGEMENT OF TRACHEOSTOMY POLICY AND PROCEDURE</a>"
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_40",
+   "fieldtype": "HTML",
+   "options": "<h5>View Document</h5>"
+  },
+  {
+   "fieldname": "column_break_42",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-06-13 07:03:29.351620",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Staff Policies and Procedures",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1Acs Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
