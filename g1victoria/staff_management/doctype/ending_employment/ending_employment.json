@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "autoname": "field:user",
+ "creation": "2021-06-12 08:41:13.764473",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "html_1",
+  "html_2",
+  "html_3",
+  "html_4",
+  "user",
+  "select_6",
+  "signature_7"
+ ],
+ "fields": [
+  {
+   "fieldname": "html_1",
+   "fieldtype": "HTML",
+   "options": "<h1>Ending Employment</h1>"
+  },
+  {
+   "fieldname": "html_2",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Termination-of-employment-letter-template.docx\" target=\"_blank\">Termination of employment-letter template</a>"
+  },
+  {
+   "fieldname": "html_3",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Termination-of-employment-letter-template-redundancy.docx\" target=\"_blank\">Termination of employment letter template redundancy</a>"
+  },
+  {
+   "fieldname": "html_4",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Termination-of-employment-letter-template-serious-misconduct.docx\" target=\"_blank\">Termination of employment letter template serious misconduct</a>"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fieldname": "select_6",
+   "fieldtype": "Select",
+   "options": "I have read and understood.\nI require clarification."
+  },
+  {
+   "fieldname": "signature_7",
+   "fieldtype": "Signature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-06-12 08:41:13.764473",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Ending Employment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
